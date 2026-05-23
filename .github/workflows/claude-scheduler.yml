@@ -25,8 +25,8 @@ jobs:
           from anthropic import Anthropic
           client = Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
           response = client.messages.create(
-              model="claude-opus-4-20250805",
-              max_tokens=50000,
+              model="claude-haiku-4-5",
+              max_tokens=8000,
               messages=[{"role": "user", "content": "Write a comprehensive guide on project management."}]
           )
           print("Pre-loaded successfully")
