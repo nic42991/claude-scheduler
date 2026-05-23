@@ -3,29 +3,36 @@ name: Claude Pre-load
 on:
   schedule:
     - cron: '30 0,6,12,18 * * *'
+  workflow_dispatch:
 
 jobs:
   claude-prompt:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+
       - uses: actions/setup-python@v4
         with:
           python-version: '3.11'
+
       - name: Install Anthropic
         run: pip install anthropic
+
+      - name: Create script
+        run: |
+          cat > script.py << 'PYEOF'
+          import os
+          from anthropic import Anthropic
+          client = Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
+          response = client.messages.create(
+              model="claude-opus-4-20250805",
+              max_tokens=50000,
+              messages=[{"role": "user", "content": "Write a comprehensive guide on project management."}]
+          )
+          print("Pre-loaded successfully")
+          PYEOF
+
       - name: Run Claude prompt
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: |
-          python3 -c "
-          import os
-          from anthropic import Anthropic
-          client = Anthropic(api_key=os.environ.get('ANTHROPIC_API_KEY'))
-          response = client.messages.create(
-              model='claude-opus-4-20250805',
-              max_tokens=50000,
-              messages=[{'role': 'user', 'content': 'Write a comprehensive guide on effective project management strategies.'}]
-          )
-          print('Pre-loaded successfully')
-          "
+        run: python3 script.py
