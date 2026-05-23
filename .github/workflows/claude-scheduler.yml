@@ -2,7 +2,7 @@ name: Claude Pre-load
 
 on:
   schedule:
-    - cron: '30 5 * * *'
+    - cron: '30 0,6,12,18 * * *'
 
 jobs:
   claude-prompt:
