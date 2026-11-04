@@ -17,7 +17,7 @@ cd claude-scheduler/curious-little-ops
 pip install -r requirements.txt
 ```
 
-Drive'daki `secrets.json` şablonunu indirip bu klasöre koyun. Her adımda bu dosyaya değer yazacaksınız; bitince Drive'a geri yükleyin (aynı isimle üzerine yazın).
+Drive'daki `curious-little-ops/secrets.json` şablonunu indirip bu klasöre koyun. Her adımda bu dosyaya değer yazacaksınız; bitince Drive'daki eskisini silip yenisini aynı isimle aynı klasöre yükleyin (görevler dosyayı ismiyle bulur).
 
 ## 1. Pinterest (15 dk) - en önemli kanal, önce bunu yapın
 
