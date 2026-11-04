@@ -1,0 +1,6 @@
+secrets.json
+state.json
+brief.md
+__pycache__/
+*.pyc
+items.json

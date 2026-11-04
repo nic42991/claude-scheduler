@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "version": 1,
+    "updated": "2026-11-04T17:00:00+00:00",
+    "brand": "Curious Little by Gozde",
+    "owner": "Nick Joosten",
+    "owner_email": "nic42991@gmail.com",
+    "links": {
+      "etsy": "https://curiouslittlebygozde.etsy.com",
+      "amazon_author": "Gozde Joosten",
+      "instagram": "https://www.instagram.com/curiouslittlebygozde",
+      "pinterest": "https://www.pinterest.com/curiouslittlebygozde",
+      "youtube": "https://www.youtube.com/@CuriousLittleByGozde",
+      "kdp_reports": "https://kdpreports.amazon.com"
+    },
+    "voice": "English-first, warm, parent-to-parent, short sentences, no em dashes (use hyphens), cream + light blue visual look, no hard sell"
+  },
+  "strategy": {
+    "phase": "first-sales-60d: no new products, only sales + reviews",
+    "phase_until": "2026-12-31",
+    "rules": [
+      "No new product creation until phase_until. Proposals for new products go to decisions as 'backlog', not to the queue.",
+      "Etsy storefront shows max 5 focus products; everything else stays draft/inactive until the first 10 sales.",
+      "Pinterest is the only growth channel: 10-15 fresh pins per week, all pointing to focus products or KDP books.",
+      "Instagram: 2 Reels per week max, cut from existing OpenArt/YouTube clips. No new OpenArt credits without approval.",
+      "YouTube: Shorts only from existing videos. No new songs this phase.",
+      "Money decisions (price change, ad budget change, hiding a listing, any spend) always need Nick's approval via email reply 'approve D-xxxxxx'.",
+      "Content (pins, posts, reels, shorts) publishes automatically without approval.",
+      "Paused until January: Trendyol, website work, new personalized books, Spanish dictionary, extra YouTube channels."
+    ],
+    "paused": ["trendyol", "website", "new-personalized-books", "kids-dictionary-spanish", "new-youtube-channels", "new-songs"],
+    "targets": {
+      "etsy_sales_by_2026-12-31": 25,
+      "etsy_reviews_by_2026-12-31": 10,
+      "kdp_units_per_month": 50,
+      "pins_per_week": 12,
+      "reels_per_week": 2,
+      "amazon_ads_acos_max": 0.6
+    },
+    "growth_thesis_2027": "Bilingual (Turkish-English, Spanish-English) preschool learning brand. Seasonal printables are the on-ramp; bilingual catalog is the moat."
+  },
+  "products": [
+    {"id": "P-xmas5in1", "name": "5-in-1 Christmas Printable Bundle (Activity Book, Scavenger Hunt, Bingo, Memory Match, Room Decor Kit)", "platform": "etsy", "type": "digital", "status": "focus", "price": 9.99, "url": "", "listing_id": "", "keywords": ["christmas printables for kids", "christmas activity bundle", "kids christmas games printable"], "image": ""},
+    {"id": "P-montessori", "name": "Montessori Life Skills Pack ages 2-6 (132 pages, parent guide)", "platform": "etsy", "type": "digital", "status": "focus", "price": 7.99, "url": "", "listing_id": "", "keywords": ["montessori printables", "toddler life skills", "practical life activities"], "image": ""},
+    {"id": "P-busybook", "name": "Toddler Busy Book printable (100 pages, pastel Montessori)", "platform": "etsy", "type": "digital", "status": "focus", "price": 7.99, "url": "", "listing_id": "", "keywords": ["toddler busy book printable", "busy binder", "quiet book pages"], "image": ""},
+    {"id": "P-xmasbook", "name": "Personalized Christmas Mystery Storybook (printed, Printify 8x8)", "platform": "etsy", "type": "physical", "status": "focus", "price": 29.99, "url": "", "listing_id": "", "keywords": ["personalized christmas book", "custom name christmas story", "christmas gift for kids"], "image": ""},
+    {"id": "P-winterlab", "name": "Winter Science Lab - 50+ page winter learning pack ages 4-6", "platform": "etsy", "type": "digital", "status": "focus", "price": 6.99, "url": "", "listing_id": "", "keywords": ["winter printables preschool", "winter science activities kids", "homeschool winter unit"], "image": ""},
+    {"id": "P-xmasbingo", "name": "Christmas Bingo printable", "platform": "etsy", "type": "digital", "status": "hidden", "price": 2.99, "url": "", "listing_id": "", "keywords": [], "image": "", "note": "folded into 5-in-1 bundle"},
+    {"id": "P-memorymatch", "name": "Christmas Memory Match", "platform": "etsy", "type": "digital", "status": "hidden", "url": "", "listing_id": "", "keywords": [], "image": "", "note": "folded into 5-in-1 bundle"},
+    {"id": "P-scavenger", "name": "Christmas Scavenger Hunt", "platform": "etsy", "type": "digital", "status": "hidden", "url": "", "listing_id": "", "keywords": [], "image": "", "note": "folded into 5-in-1 bundle"},
+    {"id": "P-roomdecor", "name": "Christmas Room Decor cut/color/build kit (30 pages)", "platform": "etsy", "type": "digital", "status": "hidden", "price": 4.99, "url": "", "listing_id": "", "keywords": [], "image": "", "note": "folded into 5-in-1 bundle"},
+    {"id": "P-growth", "name": "Growth Mindset Quote posters (8-poster bundle)", "platform": "etsy", "type": "digital", "status": "hidden", "url": "", "listing_id": "", "keywords": [], "image": ""},
+    {"id": "P-trbingo", "name": "Turkish Vocabulary Bingo printable", "platform": "etsy", "type": "digital", "status": "hidden", "url": "", "listing_id": "", "keywords": ["turkish for kids", "bilingual printable"], "image": "", "note": "bilingual - revisit in 2027 thesis"},
+    {"id": "P-advent", "name": "24 Days of Christmas Learning Advent", "platform": "etsy", "type": "digital", "status": "hidden", "url": "", "listing_id": "", "keywords": [], "image": ""},
+    {"id": "P-gingerbread", "name": "3D Paper Gingerbread Village", "platform": "etsy", "type": "digital", "status": "hidden", "url": "", "listing_id": "", "keywords": [], "image": ""},
+    {"id": "P-elfkit", "name": "Christmas Elf Kit printable", "platform": "etsy", "type": "digital", "status": "hidden", "url": "", "listing_id": "", "keywords": [], "image": ""},
+    {"id": "P-grandma", "name": "Christmas at [GRANDMA]'s House (personalized, printed)", "platform": "etsy", "type": "physical", "status": "hidden", "url": "", "listing_id": "", "keywords": [], "image": ""},
+    {"id": "P-sleigh", "name": "The Sleepy Sleigh Ride (personalized, printed)", "platform": "etsy", "type": "physical", "status": "hidden", "url": "", "listing_id": "", "keywords": [], "image": ""},
+    {"id": "P-nicelist", "name": "Santa's Nice List (personalized, printed)", "platform": "etsy", "type": "physical", "status": "hidden", "url": "", "listing_id": "", "keywords": [], "image": ""},
+
+    {"id": "K-brainboost", "name": "Christmas Brain Boost: Activity Book for Kids Ages 3-5", "platform": "kdp", "type": "paperback", "status": "focus", "price": 9.99, "asin": "B0HP1PLSFW", "url": "https://www.amazon.com/dp/B0HP1PLSFW", "keywords": ["christmas activity book toddlers", "preschool christmas workbook"], "ads": {"campaigns": ["Christmas Brain Boost - Auto", "Christmas Brain Boost - Auto - Custom Text"], "daily_budget": 5, "bid": 0.21}},
+    {"id": "K-pencil", "name": "My First Pencil Control Book (Spanish-English, ages 3-5)", "platform": "kdp", "type": "paperback", "status": "focus", "price": 6.99, "asin": "B0HPMGV55C", "url": "https://www.amazon.com/dp/B0HPMGV55C", "keywords": ["bilingual tracing book", "pencil control preschool", "libro de trazos"], "ads": {"campaigns": [], "daily_budget": 0}},
+    {"id": "K-gus", "name": "Gus Lost His BOO!", "platform": "kdp", "type": "paperback", "status": "live", "asin": "B0HN2JPR6F", "url": "https://www.amazon.com/dp/B0HN2JPR6F", "keywords": []},
+    {"id": "K-penelope", "name": "Penelope and the Secret in the Tree", "platform": "kdp", "type": "paperback", "status": "live", "asin": "B0HMR3N9KT", "url": "https://www.amazon.com/dp/B0HMR3N9KT", "keywords": []},
+    {"id": "K-hazel1", "name": "Where Did My Brown Go? (Hazel & Puff Book 1, winter)", "platform": "kdp", "type": "paperback", "status": "focus", "price": 9.99, "asin": "", "url": "", "keywords": ["winter picture book toddlers", "arctic hare book kids", "seasons picture book"]},
+    {"id": "K-hazel2", "name": "Who Stole My Acorns? (Hazel & Puff Book 2)", "platform": "kdp", "type": "paperback", "status": "draft", "asin": "", "url": "", "keywords": []},
+    {"id": "K-hazel3", "name": "Where Did the Snow Go? (Hazel & Puff Book 3, spring)", "platform": "kdp", "type": "paperback", "status": "draft", "asin": "", "url": "", "keywords": [], "note": "interior + cover PDFs ready; KDP weekly new-title limit hit, retry"},
+    {"id": "K-hazel4", "name": "Who Is Splashing in My Pond? (Hazel & Puff Book 4, summer)", "platform": "kdp", "type": "paperback", "status": "backlog", "asin": "", "url": "", "keywords": []}
+  ],
+  "kpis": [
+    {"week": "2026-W45", "etsy_visits": 2800, "etsy_orders": 0, "etsy_reviews_total": 0, "ads_spend": 0, "source": {"etsy_visits": "manual-estimate (~400/day)", "etsy_orders": "manual", "etsy_reviews_total": "manual"}, "note": "baseline week; replace with real Shop Manager numbers"}
+  ],
+  "queue": [],
+  "decisions": [
+    {"id": "D-000001", "date": "2026-11-04", "type": "hide_listing", "proposal": "Etsy storefront down to 5 focus products (5-in-1 Christmas bundle, Montessori Life Skills, Toddler Busy Book, 1 personalized Christmas book, Winter Science Lab). All other listings set to inactive (not deleted) until 10 sales.", "needs_approval": true, "status": "proposed", "why": "0 sales at ~400 views/day = conversion problem; fewer, stronger listings"},
+    {"id": "D-000002", "date": "2026-11-04", "type": "price", "proposal": "Focus prices: bundle $9.99, Montessori $7.99, Busy Book $7.99, Winter Lab $6.99, personalized book $29.99. Run a 30% launch sale for 14 days to get the first 10 sales + reviews, then back to list price.", "needs_approval": true, "status": "proposed", "why": "cheapest listing signals low quality; a time-boxed sale buys sales velocity"},
+    {"id": "D-000003", "date": "2026-11-04", "type": "ad_budget", "proposal": "Etsy Ads $4/day for 14 days on the 5 focus products only. Amazon Ads: add a $5/day Auto campaign for My First Pencil Control Book (bilingual niche).", "needs_approval": true, "status": "proposed", "why": "zero-sales shops do not rank organically; small paid velocity first"},
+    {"id": "D-000004", "date": "2026-11-04", "type": "other", "proposal": "Ask 10 friends/family/Turkish school parents to buy the $2-3 sale-priced digital bundle and leave a review this week.", "needs_approval": true, "status": "proposed", "why": "reviews are the biggest missing trust signal"}
+  ],
+  "log": [
+    {"ts": "2026-11-04T17:00:00+00:00", "run": "setup", "msg": "state seeded from CEO analysis of 2026-11-04"}
+  ]
+}
