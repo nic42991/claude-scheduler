@@ -4,3 +4,4 @@ brief.md
 __pycache__/
 *.pyc
 items.json
+replies.txt
