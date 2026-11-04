@@ -5,3 +5,4 @@ __pycache__/
 *.pyc
 items.json
 replies.txt
+preview-*.png
